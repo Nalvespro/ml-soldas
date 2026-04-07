@@ -1,0 +1,256 @@
+<!DOCTYPE html >
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML SOLDAS ESPECIAIS - Soldas Industriais</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="https://img.freepik.com/vetores-gratis/soldador-trabalhando_1284-34431.jpg?w=200" alt="Logo ML Soldas" class="logo-img">
+                <div>
+                    <h2>ML SOLDAS</h2>
+                    <span>ESPECIAIS</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="#orcamento">Orçamento</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- BANNER PRINCIPAL -->
+    <section id="home" class="banner">
+        <div class="banner-overlay"></div>
+        <div class="banner-content">
+            <h1>Precisão em Cada Solda</h1>
+            <p>Soldas Especiais • Recuperação Metálica • Montagens Industriais</p>
+            <div class="banner-stats">
+                <div class="stat">
+                    <h3>15+</h3>
+                    <span>Anos de Experiência</span>
+                </div>
+                <div class="stat">
+                    <h3>500+</h3>
+                    <span>Projetos Concluídos</span>
+                </div>
+                <div class="stat">
+                    <h3>100%</h3>
+                    <span>Segurança Garantida</span>
+                </div>
+            </div>
+            <button class="cta-btn" onclick="openModal('orcamentoModal')">
+                <i class="fas fa-file-invoice"></i> Solicitar Orçamento
+            </button>
+        </div>
+        <div class="banner-image">
+            <img src="https://img.freepik.com/fotos-premium/soldador-trabalhando_1232-4567.jpg?w=740" alt="Soldador Profissional" class="soldador-main">
+            <div class="solda-effect">
+                <i class="fas fa-burn fa-4x"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUEM SOMOS -->
+    <section id="quem-somos" class="quem-somos">
+        <div class="container">
+            <h2>Quem Somos</h2>
+            <div class="quem-somos-content">
+                <div class="quem-text">
+                    <p><strong>A ML SOLDAS ESPECIAIS</strong> é especializada em <strong>soldas especiais</strong>, <strong>recuperação metálica</strong>, <strong>inspeções</strong> e <strong>montagens industriais</strong>, oferecendo soluções técnicas eficientes para o setor industrial.</p>
+                    
+                    <div class="destaques">
+                        <div class="destaque-item">
+                            <i class="fas fa-users"></i>
+                            <h4>Mão de Obra Qualificada</h4>
+                            <p>Profissionais com ampla experiência e certificações</p>
+                        </div>
+                        <div class="destaque-item">
+                            <i class="fas fa-tools"></i>
+                            <h4>Equipamentos Avançados</h4>
+                            <p>Tecnologia para produtividade e precisão</p>
+                        </div>
+                        <div class="destaque-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>SSQ Rigoroso</h4>
+                            <p>Segurança, Saúde e Qualidade em conformidade</p>
+                        </div>
+                    </div>
+
+                    <div class="historia">
+                        <h3>Nossa História</h3>
+                        <p>A empresa surgiu da visão de <strong>Vanderlei</strong>, que, após anos de experiência com sua equipe em uma terceirizada, identificou a necessidade de um serviço especializado em soldas especiais. Assim, transformou sua ideia em realidade, criando uma empresa baseada em <strong>qualidade, segurança e excelência</strong>.</p>
+                    </div>
+                </div>
+                <div class="quem-image">
+                    <img src="https://img.freepik.com/fotos-premium/equipe-soldadores-trabalhando_53876-12345.jpg?w=740" alt="Equipe ML Soldas">
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- BANNER SERVIÇOS -->
+    <section class="servicos-banner">
+        <div class="banner-overlay"></div>
+        <div class="container">
+            <h1>Nossos Serviços</h1>
+            <p>Excelência técnica para seus projetos industriais</p>
+        </div>
+    </section>
+
+    <!-- EQUIPE -->
+    <section id="equipe" class="equipe">
+        <div class="container">
+            <h2>Nossa Equipe</h2>
+            <p class="section-subtitle">Nossa equipe conta com profissionais qualificados e devidamente habilitados nos requisitos industriais para pleno atendimento à segurança</p>
+            
+            <div class="equipe-grid">
+                <div class="equipe-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Profissionais Qualificados</h3>
+                    <ul>
+                        <li>✅ Certificados NR-35</li>
+                        <li>✅ Treinamento SENAI</li>
+                        <li>✅ Experiência comprovada</li>
+                    </ul>
+                </div>
+                <div class="equipe-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Pontualidade Garantida</h3>
+                    <ul>
+                        <li>✅ Serviços com qualidade</li>
+                        <li>✅ Eficiência operacional</li>
+                        <li>✅ Compromisso com prazos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESSOS -->
+    <section id="processos" class="processos">
+        <div class="container">
+            <h2>Processos Industriais</h2>
+            <div class="processos-grid">
+                <div class="processo-card">
+                    <h3><i class="fas fa-wrench"></i> Soldas Especiais</h3>
+                    <p>MIG • TIG • Eletrodo Revestido - Precisão garantida</p>
+                </div>
+                <div class="processo-card">
+                    <h3><i class="fas fa-hammer"></i> Recuperação Metálica</h3>
+                    <p>Tecnologia avançada para recuperação de peças</p>
+                </div>
+                <div class="processo-card">
+                    <h3><i class="fas fa-magnet"></i> Inspeções NDT</h3>
+                    <p>Líquido Penetrante • Partícula Magnética</p>
+                </div>
+                <div class="processo-card">
+                    <h3><i class="fas fa-industry"></i> Montagens Industriais</h3>
+                    <p>Estruturas metálicas completas</p>
+                </div>
+            </div>
+
+            <div class="recuperacao">
+                <h3>Recuperação por Soldagem</h3>
+                <div class="recuperacao-grid">
+                    <div>
+                        <i class="fas fa-rocket"></i>
+                        <h4>Tecnologia Avançada</h4>
+                        <p>Garantindo segurança e competitividade</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-search"></i>
+                        <h4>Ensaios Não Destrutivos</h4>
+                        <p>Inspeção completa de qualidade</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-cogs"></i>
+                        <h4>Equipamentos Modernos</h4>
+                        <p>Eficiência e tecnologia de ponta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA ORÇAMENTO -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Pronto para começar seu projeto?</h2>
+            <a href="index.html#orcamento" class="cta-btn">Solicitar Orçamento</a>
+        </div>
+    </section>
+
+
+    <!-- MODAL ORÇAMENTO -->
+    <div id="orcamentoModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('orcamentoModal')">&times;</span>
+            <h2><i class="fas fa-file-invoice"></i> Solicitar Orçamento</h2>
+            <form id="orcamentoForm">
+                <div class="form-group">
+                    <input type="text" id="cliente_nome" placeholder="Nome da Empresa *" required>
+                </div>
+                <div class="form-row">
+                    <input type="email" id="cliente_email" placeholder="Email *" required>
+                    <input type="text" id="cliente_cnpj" placeholder="CNPJ">
+                </div>
+                <textarea id="servico_descricao" placeholder="Descreva o serviço necessário *" required></textarea>
+                <div class="form-row">
+                    <select id="tipo_solda" required>
+                        <option value="">Tipo de Solda</option>
+                        <option value="MIG">MIG/MAG</option>
+                        <option value="TIG">TIG</option>
+                        <option value="Eletrodo">Eletrodo Revestido</option>
+                    </select>
+                    <select id="urgencia">
+                        <option value="Media">Urgência: Média</option>
+                        <option value="Alta">Urgência: Alta</option>
+                        <option value="Baixa">Urgência: Baixa</option>
+                    </select>
+                </div>
+                <button type="submit">
+                    <i class="fas fa-paper-plane"></i> Enviar Solicitação
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="css/imagens.png" alt="Logo ML Soldas" class="logo-img"
+                 p> ML SOLDAS ESPECIAIS - Excelência em soldagem industrial</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-phone"></i> (11) 99999-9999</p>
+                    <p><i class="fas fa-envelope"></i> contato@mlsoldas.com.br</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ML SOLDAS ESPECIAIS. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

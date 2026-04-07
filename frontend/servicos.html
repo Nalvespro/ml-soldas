@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços - ML Soldas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: rgba(255,255,255,0.95);
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2em;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .service-card {
+            background: rgba(255,255,255,0.95);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border-top: 5px solid #3498db;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+        }
+        
+        .service-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #3498db;
+        }
+        
+        .service-card h3 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+        
+        .service-card p {
+            color: #7f8c8d;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        
+        .price {
+            font-size: 2em;
+            font-weight: bold;
+            color: #27ae60;
+            margin-bottom: 20px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: linear-gradient(45deg, #3498db, #2980b9);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(52,152,219,0.4);
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(52,152,219,0.6);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: white;
+            background: rgba(0,0,0,0.2);
+            border-radius: 15px;
+        }
+        
+        @media (max-width: 768px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔥 ML Soldas</h1>
+            <p class="subtitle">Serviços Profissionais de Solda e Serralheria</p>
+        </header>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🔩</div>
+                <h3>Solda MIG/TIG</h3>
+                <p>Soldas de alta precisão em aço carbono, inox e alumínio. Qualidade garantida!</p>
+                <div class="price">A partir de R$ 80/h</div>
+                <a href="https://wa.me/5511999999999?text=Quero%20orçamento%20Solda%20MIG/TIG" class="btn" target="_blank">
+                    Solicitar Orçamento
+                </a>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">⚙️</div>
+                <h3>Portões e Grades</h3>
+                <p>Fabricação e instalação de portões, grades, corrimãos e estruturas metálicas.</p>
+                <div class="price">Sob consulta</div>
+                <a href="https://wa.me/5511999999999?text=Quero%20orçamento%20Portões" class="btn" target="_blank">
+                    Solicitar Orçamento
+                </a>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🔧</div>
+                <h3>Manutenção Industrial</h3>
+                <p>Reparos rápidos e manutenção preventiva em máquinas e equipamentos.</p>
+                <div class="price">A partir de R$ 120/h</div>
+                <a href="https://wa.me/5511999999999?text=Quero%20orçamento%20Manutenção" class="btn" target="_blank">
+                    Solicitar Orçamento
+                </a>
+            </div>
+        </div>
+
+        <footer>
+            <p>📞 Ligue agora: (11) 99999-9999 | ✉️ contato@mlsoldas.com.br</p>
+            <p>✅ Atendemos todo Brasil | 🚚 Orçamento grátis!</p>
+        </footer>
+    </div>
+</body>
+</html>
